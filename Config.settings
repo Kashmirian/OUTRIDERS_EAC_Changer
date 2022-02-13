@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OUTRIDERS_EAC_Changer" GeneratedClassName="Config">
+  <Profiles />
+  <Settings>
+    <Setting Name="EACBypassHash" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">6E3F0AAB9E124A1F158156FCCFA20835</Value>
+    </Setting>
+    <Setting Name="EACOriginalHash" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D5482797E1E61A3BAB654C3951B02ED7</Value>
+    </Setting>
+    <Setting Name="EACFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EAC_BAKUP</Value>
+    </Setting>
+    <Setting Name="EACCurrentFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EAC_OUTRIDERS.exe</Value>
+    </Setting>
+    <Setting Name="EACBypassFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EAC_OUTRIDERS.bypass.exe</Value>
+    </Setting>
+    <Setting Name="EACOriginalFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EAC_OUTRIDERS.original.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
