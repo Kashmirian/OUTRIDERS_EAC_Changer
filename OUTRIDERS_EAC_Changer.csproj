@@ -22,6 +22,7 @@
     <None Update="Config.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Config.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
     <None Update="EAC_BAKUP\EAC_OUTRIDERS.bypass.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

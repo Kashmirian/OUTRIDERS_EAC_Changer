@@ -33,6 +33,7 @@
             this.bwkrGetfileinfo = new System.ComponentModel.BackgroundWorker();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -85,13 +86,27 @@
             this.label2.Text = "Unknown";
             this.label2.DoubleClick += new System.EventHandler(this.label2_DoubleClick);
             // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(244, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(110, 23);
+            this.button3.TabIndex = 1;
+            this.button3.Text = " Launch Game";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(249, 81);
+            this.ClientSize = new System.Drawing.Size(373, 81);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -112,5 +127,6 @@
         private System.ComponentModel.BackgroundWorker bwkrGetfileinfo;
         private Label label1;
         private Label label2;
+        private Button button3;
     }
 }

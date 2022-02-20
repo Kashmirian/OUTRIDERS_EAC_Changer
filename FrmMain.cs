@@ -157,5 +157,10 @@ namespace OUTRIDERS_EAC_Changer
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Process.Start(Config.Default.OutridersStartupArgument);
+        }
     }
 }

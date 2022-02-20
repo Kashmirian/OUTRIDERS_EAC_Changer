@@ -76,5 +76,14 @@ namespace OUTRIDERS_EAC_Changer {
                 return ((string)(this["EACOriginalFileName"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("com.epicgames.launcher://apps/c6e54ebd92da4ee8819c")]
+        public string OutridersStartupArgument {
+            get {
+                return ((string)(this["OutridersStartupArgument"]));
+            }
+        }
     }
 }

@@ -20,5 +20,8 @@
     <Setting Name="EACOriginalFileName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">EAC_OUTRIDERS.original.exe</Value>
     </Setting>
+    <Setting Name="OutridersStartupArgument" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">com.epicgames.launcher://apps/c6e54ebd92da4ee8819c</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
