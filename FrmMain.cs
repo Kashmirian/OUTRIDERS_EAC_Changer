@@ -160,7 +160,8 @@ namespace OUTRIDERS_EAC_Changer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Process.Start(Config.Default.OutridersStartupArgument);
+            ProcessStartInfo startInfo = new ProcessStartInfo() { Arguments = Config.Default.OutridersStartupArgument, FileName = Config.Default.OutridersStarProgram, WorkingDirectory = Path.GetDirectoryName(Config.Default.OutridersStarProgram) };
+            Process.Start(startInfo);
         }
     }
 }

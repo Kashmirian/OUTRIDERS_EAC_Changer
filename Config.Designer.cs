@@ -85,5 +85,14 @@ namespace OUTRIDERS_EAC_Changer {
                 return ((string)(this["OutridersStartupArgument"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("E:\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe")]
+        public string OutridersStarProgram {
+            get {
+                return ((string)(this["OutridersStarProgram"]));
+            }
+        }
     }
 }

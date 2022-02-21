@@ -23,5 +23,8 @@
     <Setting Name="OutridersStartupArgument" Type="System.String" Scope="Application">
       <Value Profile="(Default)">com.epicgames.launcher://apps/c6e54ebd92da4ee8819c</Value>
     </Setting>
+    <Setting Name="OutridersStarProgram" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">E:\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
